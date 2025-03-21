@@ -445,4 +445,8 @@ a {
   white-space: nowrap;
 }
 
+.hero {
+  max-width: 1440px;
+}
+
 /*# sourceMappingURL=style.css.map */
