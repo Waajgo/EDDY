@@ -18,8 +18,47 @@
 
 @font-face {
   font-family: "Archivo Black";
-  src: url("../../fonts/archivo-black.woff2") format("woff2");
+  src: url("../../fonts/ArchivoBlack-Regular.woff2") format("woff2"),
+  url("../../fonts/ArchivoBlack-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Unbounded";
+  src: url("../../fonts/Unbounded-Black.woff2") format("woff2"),
+  url("../../fonts/Unbounded-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("../../fonts/Alexandria-Light.woff2") format("woff2"),
+  url("../../fonts/Alexandria-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Alexandria";
+  src: url("../../fonts/Alexandria-Medium.woff2") format("woff2"),
+  url("../../fonts/Alexandria-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter24pt-Medium.woff2") format("woff2"),
+  url("../../fonts/Inter24pt-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+

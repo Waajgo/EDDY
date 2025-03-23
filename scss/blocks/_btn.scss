@@ -1,0 +1,14 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  background-color: transparent;
+  border: 3px solid $color-black;
+  border-radius: 16px;
+  font-family: $ff-Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 44px;
+  cursor: pointer;
+}

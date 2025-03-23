@@ -1,0 +1,18 @@
+.nav-cards {
+  padding: 50px 0;
+  position: relative;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 536px;
+    height: 536px;
+  }
+}

@@ -1,0 +1,58 @@
+.card-square {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-image:
+          linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
+          linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
+          url(https://placebear.com/g/536/536);
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 124px;
+    margin: auto 0 0;
+    padding: 12px 20px;
+    background: rgba(101, 144, 179, 0.40);
+    filter: blur(0.15px);
+    backdrop-filter: blur(10px);
+    position: relative;
+  }
+
+  &__title {
+    font-family: $ff-Unbounded;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.6px;
+    margin: 0;
+    padding: 0;
+    color: $color-white;
+  }
+
+  &__desc {
+    color: $color-white;
+    font-family: $ff-Alexandria;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+  }
+
+  &__go-to {
+    color: $color-white;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+

@@ -1,0 +1,19 @@
+.rental-card {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 380px;
+
+  &__title {
+    color: $color-black;
+    text-align: center;
+    font-family: $ff-Alexandria;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+  }
+}
