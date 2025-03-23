@@ -313,15 +313,22 @@ template {
 
 @font-face {
   font-family: "TharLon";
-  src: url("./fonts/TharLon.woff2") format("woff2"), url("./fonts/TharLon.woff") format("woff");
+  src: url("../../fonts/TharLon.woff2") format("woff2"), url("../../fonts/TharLon.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TharLon";
-  src: url("./fonts/TharLon.woff2") format("woff2"), url("./fonts/TharLon.woff") format("woff");
+  src: url("../../fonts/TharLon.woff2") format("woff2"), url("../../fonts/TharLon.woff") format("woff");
   font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo Black";
+  src: url("../../fonts/archivo-black.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -364,6 +371,7 @@ a {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -385,14 +393,17 @@ a {
 /* Blocks */
 /* ------------------------------------ */
 .header {
-  padding: 28px 0;
+  padding: 60px 0;
   margin: 0;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 10;
+  width: 100%;
 }
 .header__wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -426,11 +437,13 @@ a {
   transform: translateX(-50%);
 }
 
+.main-nav {
+  display: flex;
+  width: 100%;
+}
 .main-nav__list {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: nowrap;
+  gap: 21px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -447,6 +460,39 @@ a {
 
 .hero {
   max-width: 1440px;
+  height: 1025px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(101, 144, 179);
+  position: relative;
+}
+.hero::after {
+  content: "";
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 14.22%, rgba(255, 255, 255, 0.76) 54.8%, #FFF 91.49%);
+}
+.hero__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  top: -125px;
+  z-index: 10;
+}
+.hero__title {
+  font-family: "Archivo Black", "Arial", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1F4E75;
 }
 
 /*# sourceMappingURL=style.css.map */
