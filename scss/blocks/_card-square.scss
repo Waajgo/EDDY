@@ -3,12 +3,32 @@
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  background-image:
-          linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
-          linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
-          url(https://placebear.com/g/536/536);
   background-repeat: no-repeat;
   overflow: hidden;
+
+  &--tours {
+    background-image: linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
+    url('../../images/main/tours.png');
+
+    @media (min-resolution: 2ddpx) {
+      background-image: linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
+      url('../../images/main/tours@2x.png');
+    }
+  }
+
+  &--market {
+    background-image: linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
+    url('../../images/main/market.png');
+
+    @media (min-resolution: 2ddpx) {
+      background-image: linear-gradient(0deg, rgba(113, 83, 40, 0.13) 0%, rgba(113, 83, 40, 0.13) 100%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.09) 100%),
+      url('../../images/main/market@2x.png');
+    }
+  }
 
   &__inner {
     display: flex;
