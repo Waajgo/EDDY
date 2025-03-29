@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 15px;
   background-color: transparent;
   border: 3px solid $color-black;
   border-radius: 16px;
@@ -13,8 +13,19 @@
   cursor: pointer;
 
   &--blue {
+    padding: 18px;
     color: $color-white;
     background-color: $color-other-blue;
     border: none;
+  }
+
+  &--form {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $color-white;
+    border: 1px solid $color-white;
+    border-radius: 4px;
   }
 }

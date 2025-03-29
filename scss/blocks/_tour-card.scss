@@ -9,7 +9,7 @@
   background-size: cover;
   width: 720px;
   height: 432px;
-  padding: 40px;
+  padding: 40px 80px;
 
   &__title {
     font-family: $ff-alexandria;
@@ -19,6 +19,8 @@
     text-transform: uppercase;
     color: $color-white;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   &__description {
@@ -28,6 +30,8 @@
     font-size: 18px;
     font-weight: 300;
     line-height: normal;
+    margin: 0;
+    padding: 0;
   }
 
   &--sv-nikola {

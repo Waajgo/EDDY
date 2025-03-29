@@ -1,0 +1,31 @@
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  position: relative;
+
+  &__label {
+    color: $color-white;
+    font-family: $ff-inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+  }
+
+  &__field {
+    padding: 14px;
+    font-family: $ff-inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    border-radius: 4px;
+    max-width: 300px;
+    color: $color-suva-grey;
+  }
+
+
+}

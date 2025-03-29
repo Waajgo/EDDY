@@ -1,0 +1,65 @@
+.corporate {
+
+  &__wrapper {
+    background-image: url("../../images/corporate/corp-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 140px 45px;
+    color: $color-white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__title {
+    font-family: $ff-alexandria;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+    padding: 0;
+  }
+
+  &__description {
+    font-family: $ff-alexandria;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1.8px rgba(0, 0, 0, 0.37);
+    margin: 0 0 65px;
+    padding: 0;
+  }
+
+  &__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  &__button {
+    width: 160px;
+  }
+
+  &__privacy {
+    margin: 0;
+    padding: 0;
+    color: $color-white;
+    text-align: center;
+    font-family: $ff-inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  &__privacy-link {
+    color: $color-white;
+    text-decoration: underline;
+  }
+}

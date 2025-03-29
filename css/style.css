@@ -521,7 +521,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 71px;
-  top: -88px;
+  top: -8px;
   z-index: 10;
 }
 .hero__title {
@@ -647,6 +647,7 @@ a {
   justify-content: space-between;
   align-items: center;
   max-width: 380px;
+  gap: 20px;
 }
 .rental-card__title {
   color: #000000;
@@ -657,13 +658,15 @@ a {
   line-height: 35px;
   letter-spacing: 3.2px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 15px;
   background-color: transparent;
   border: 3px solid #000000;
   border-radius: 16px;
@@ -674,19 +677,29 @@ a {
   cursor: pointer;
 }
 .btn--blue {
+  padding: 18px;
   color: #ffffff;
   background-color: #1F4E75;
   border: none;
 }
+.btn--form {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
 
 .tours {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .tours__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
 }
 .tours__title {
   font-family: "Archivo Black", "Arial", sans-serif;
@@ -703,7 +716,7 @@ a {
 .tours__list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 0 10px;
   padding: 0;
   list-style: none;
 }
@@ -722,7 +735,7 @@ a {
   background-size: cover;
   width: 720px;
   height: 432px;
-  padding: 40px;
+  padding: 40px 80px;
 }
 .tour-card__title {
   font-family: "Alexandria", "Arial", sans-serif;
@@ -732,6 +745,8 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .tour-card__description {
   color: #ffffff;
@@ -740,6 +755,8 @@ a {
   font-size: 18px;
   font-weight: 300;
   line-height: normal;
+  margin: 0;
+  padding: 0;
 }
 .tour-card--sv-nikola {
   background-image: linear-gradient(0deg, rgba(140, 80, 24, 0.08) 0%, rgba(140, 80, 24, 0.08) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.55) 47.5%, rgba(0, 0, 0, 0.22) 100%), url("../../images/tours/sveti-nikola.jpg");
@@ -755,7 +772,7 @@ a {
 }
 
 .journal {
-  padding: 68px 0 100px;
+  padding: 103px 0 95px;
 }
 .journal__wrapper {
   display: flex;
@@ -764,6 +781,7 @@ a {
   gap: 72px;
 }
 .journal__list {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -781,6 +799,8 @@ a {
 .journal-card__image-wrapper {
   position: relative;
   display: inline-block;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .journal-card__image-wrapper::after {
   content: "";
@@ -809,6 +829,91 @@ a {
   line-height: 22px;
   margin: 0;
   padding: 0;
+}
+
+.corporate__wrapper {
+  background-image: url("../../images/corporate/corp-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 140px 45px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.corporate__title {
+  font-family: "Alexandria", "Arial", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+  padding: 0;
+}
+.corporate__description {
+  font-family: "Alexandria", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1.8px rgba(0, 0, 0, 0.37);
+  margin: 0 0 65px;
+  padding: 0;
+}
+.corporate__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.corporate__button {
+  width: 160px;
+}
+.corporate__privacy {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.corporate__privacy-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  position: relative;
+}
+.custom-input__label {
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+.custom-input__field {
+  padding: 14px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  border: none;
+  border-radius: 4px;
+  max-width: 300px;
+  color: #909090;
 }
 
 /*# sourceMappingURL=style.css.map */

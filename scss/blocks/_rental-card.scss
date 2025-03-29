@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 380px;
+  gap: 20px;
 
   &__title {
     color: $color-black;
@@ -15,5 +16,7 @@
     line-height: 35px;
     letter-spacing: 3.2px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
   }
 }
