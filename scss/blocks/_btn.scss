@@ -6,9 +6,15 @@
   background-color: transparent;
   border: 3px solid $color-black;
   border-radius: 16px;
-  font-family: $ff-Inter;
+  font-family: $ff-inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 44px;
   cursor: pointer;
+
+  &--blue {
+    color: $color-white;
+    background-color: $color-other-blue;
+    border: none;
+  }
 }

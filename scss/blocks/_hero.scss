@@ -4,7 +4,7 @@
 
   &__img {
     position: relative;
-    background-color: $color-Blue;
+    background-color: $color-light-grey;
 
     &::after {
       content: "";
@@ -29,13 +29,13 @@
   }
 
   &__title {
-    font-family: $ff-ArchivoBlack;
+    font-family: $ff-archivo-black;
     font-size: 56px;
     font-weight: 400;
     line-height: 56px;
     text-transform: uppercase;
     text-align: center;
-    color: $color-Other-Blue;
+    color: $color-other-blue;
     margin: 0;
     padding: 0;
     }
